@@ -1,6 +1,6 @@
 #all are grams
 target_protein = 130
-target_carbs = 360
+target_carbs = 365
 target_fat = 85
 
 #chicken thighs
@@ -31,8 +31,8 @@ best_rice = 0
 best_macros = None #why is this none?
 
 #this should iterate over all possible grs of food and calculate the macros, then 
-for chicken_g in range(200,400):
-    for rice_g in range(100,2000):
+for chicken_g in range(100,500):
+    for rice_g in range(300,2000):
         protein, carbs, fat = calc_macros(chicken_g, rice_g)
         #absolute value with python, how far is macro value from target?
         macro_diff = abs(target_protein-protein) + abs(target_carbs-carbs) + abs(target_fat-fat)
