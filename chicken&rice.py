@@ -4,18 +4,18 @@ target_carbs = 365
 target_fat = 85
 
 #chicken thighs
-protein_per_100_chicken = 25.0
-carbs_per_100_chicken = 10.0
-fat_per_100_chicken = 10.0
+protein_per_100_chicken = 22.5
+carbs_per_100_chicken = 0.0
+fat_per_100_chicken = 15.0
 
 #cooked white rice
-protein_per_100_rice = 2.7
-carbs_per_100_rice = 28.0
+protein_per_100_rice = 2.5
+carbs_per_100_rice = 37
 fat_per_100_rice = 0.3
 
 #kilocalorie
-calories_per_g_chicken = 2
-calories_per_g_rice = 1.3
+calories_per_g_chicken = 2.26
+calories_per_g_rice = 1.6
 calories_per_g_canola = 8.9
 
 #calculates all macros for given chicken and rice grams
